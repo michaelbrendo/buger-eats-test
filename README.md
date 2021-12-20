@@ -1,4 +1,4 @@
-# BUGER EATS TEST # BUGER EATS TEST :bug::hamburger:
+# BUGER EATS TEST :bug::hamburger:
 
 
 ## How to run the test
