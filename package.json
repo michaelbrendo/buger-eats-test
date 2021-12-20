@@ -1,0 +1,14 @@
+{
+  "name": "buger-eats-test",
+  "version": "1.0.0",
+  "description": "BugerEats acceptance test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Michael Brendo",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.1.1"
+  }
+}
