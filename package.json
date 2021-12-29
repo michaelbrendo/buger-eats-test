@@ -4,7 +4,7 @@
   "description": "BugerEats acceptance test",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open"
+    "test:ci": "npx cypress run"
   },
   "author": "Michael Brendo",
   "license": "MIT",

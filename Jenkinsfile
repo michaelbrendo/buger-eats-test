@@ -1,21 +1,18 @@
 pipeline {
     agent {
         docker {
-            image "node:alpine"
-            args "--network=skynet"
+            image "cypress/base"
         }
     }
     stages {
         stage("Build") {
             steps {
-                sh "npm install"
-                sh "npm install cypress"
-                sh "npm install xvfb"
+                sh "npm install"                
             }
         }
         stage("Test"){
             steps {
-                sh "npx cypress run"
+                sh "npm run test:ci"
             }
         }
     }
