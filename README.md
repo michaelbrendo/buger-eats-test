@@ -1,13 +1,13 @@
 # BUGER EATS TEST :bug::hamburger:
 
-## How to run the test
+### How to run the test
 ```bash
 npm run test
 ```
 
 ***
 
-## Technology:
+### Technology:
 - [Nodejs](https://github.com/nodesource/distributions/blob/master/README.md)
 - [Cypress](https://www.cypress.io/)
 - [Docker](https://docs.docker.com/engine/install/) *Optional for jenkins
@@ -15,7 +15,7 @@ npm run test
 
 ***
 
-## Optional for jenkins
+### Optional for jenkins
 ```bash
 #Create the bridge networks
 docker network create network-jenkins
@@ -45,8 +45,14 @@ docker ps
 
 ***
 
-## Create a job in Jenkins
-to do.
+### Create a job in Jenkins
+*to do.*
 
-## Credits
-Fernando Papito and Michael Brendo.
+***
+
+### Pipeline
+
+![Alt_text](docs/buger-eats-test-pipeline.png)
+
+### Credits
+*Fernando Papito and Michael Brendo.*
