@@ -10,6 +10,7 @@ pipeline {
             steps {
                 sh "npm install"
                 sh "npm install cypress"
+                sh "npm install xvfb"
             }
         }
         stage("Test"){
