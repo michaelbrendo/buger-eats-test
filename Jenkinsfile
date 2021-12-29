@@ -8,7 +8,6 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                sh "apt install alpine"
                 sh "npm install"
             }
         }
