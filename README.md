@@ -54,5 +54,4 @@ docker ps
 
 ![Alt_text](docs/buger-eats-test-pipeline.png)
 
-### Credits
-*Fernando Papito and Michael Brendo.*
+***Tks: F. Papito***
